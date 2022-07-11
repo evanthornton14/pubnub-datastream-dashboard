@@ -1,0 +1,14 @@
+<div class="change-list" fxLayout="column">
+    <div class="change-filter" fxLayout="row">
+        <form class="example-form">
+            <mat-form-field class="filter-field" appearance="fill">
+                <mat-label>Filter Wiki Changes</mat-label>
+                <input matInput>
+            </mat-form-field>
+        </form>
+    </div>
+    <div class="list-item" fxLayout="row" fxLayoutAlign="space-between center" *ngFor="let change of changes">
+        <div>{{change.item}}</div>
+        <div>{{change.event | titlecase}} by {{change.user}}</div>
+    </div>
+</div>

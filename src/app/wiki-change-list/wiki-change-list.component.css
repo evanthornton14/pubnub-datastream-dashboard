@@ -1,0 +1,14 @@
+.change-filter {
+    width: 100%;
+}
+.change-list {
+    width: 80%;
+    margin: 12px auto;
+    padding: 12px;
+    border: solid 2px #0c34c7d9;
+    border-radius: 8px;
+    
+}
+.list-item {
+    height: 52px;
+}
